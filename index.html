@@ -5,26 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment</title>
-
-    <style>
-        body {
-            background-color: aquamarine;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            width: 55%;
-        }
-    </style>
-
+    <link href="css/main.css" rel="stylesheet">
 
 </head>
-<body>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li><a href="notes.html">Notes</a></li>
-        </ul>
-    </nav>
-    <h1>Matthew Stirling</h1>
-    <img src="images/mstirl.jpg" alt="My graduation photo" title="Matthew" width= "300">
+<body>  
+    <header>
+        <nav>
+            <ul>
+                <li class="home">Home</li>
+                <li class="notes"><a href="notes.html">Notes</a></li>
+            </ul>
+        </nav>
+
+        <h1 class= "site-title">Matthew Stirling</h1>
+    </header>
+    <img id="my-image" src="images/mstirl.jpg" alt="My graduation photo" title="Matthew" width= "300">
+
 
     <article>
         <h2>About Me</h2>
@@ -41,13 +37,17 @@
 
         <blockquote>Love yourself! 
             Because you're the only person that will be with you, your entire life. -<cite>Rowan Atkinson</cite></blockquote>
-        
+
     <h2>My hobbies</h2>
-        <ul>
+        <ul class="hobbies">
+        <div>
             <li>I play softball</li>
+        </div>
+        <div>
             <li>I listen to music</li>
-        </ul>
-            <p>Copyright 2022 </p>
+        </div>
+        </ul>   
+            <footer>Copyright 2022 </footer>
     </article>
 </body>
 </html>

@@ -1,0 +1,55 @@
+/* My CSS file */
+
+
+/*background color with a readable font and width for organizing text layout*/
+body {
+    background-color: pink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    width: 55%;
+}
+
+header, footer {
+    /* */
+    background-color: beige
+}
+
+.site-title {
+    /* */
+    color: darkblue
+}
+
+#my-image {
+    /*0 horizontal and vertical placement, 2px of the blur, 1px of the spread and black colour */
+    box-shadow: 0 0 2px 1px black;
+}
+
+.hobbies {
+    /* */
+    list-style-type: square;
+}
+
+.home {
+
+    list-style-type: square;
+}
+
+.notes {
+
+    list-style-type: square;
+}
+
+a {
+    box-shadow: 0 0 2px 1px black;
+    background-color: aqua;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: blanchedalmond;
+    color: crimson;
+}
+
+div:nth-child(1) {
+    background: red;
+  }
